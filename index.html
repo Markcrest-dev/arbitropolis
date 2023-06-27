@@ -32,45 +32,18 @@
         </div>
       </div>
       <span>
-        <button type="button"><img src="images/twitter.png" alt=""> </button>
-        <button type="button"><img src="images/discord.png" alt=""></button>
-        <button type="button"><img src="images/opensea.png" alt=""></button>
+        <a href=""><img src="images/twitter.png" style="margin-left: 0px;"> </a>
+        <a href=""><img src="images/discord.png" ></a>
+        <a href=""><img src="images/opensea.png" ></a>
       </span>
-      <div class="tlc">
-      <h5>Access Key:<span> Citizen Permit [NFT]</span></h5>
-      <p>Currency:<span> Arbitropolis Credit [ACR]</span></p>
     </div>
-    </div>
-    
-    <img src="images/twitter.png" class="arbp">
+    <div class="tlc">
+        <h5>Access Key:<a href=""><span> Citizen Permit [NFT]</span></a></h5>
+        <p>Currency:<a href=""><span> Arbitropolis Credit [ACR]</span></a></p> 
+      </div>
+    <img src="images/logo.png" class="arbp">
   </div>
   
-  <script>
-    var countDownDate = new Date("Sept 13, 2023 00:00:00").getTime();
-    var x = setInterval(function(){
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
-
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      document.getElementById("days").innerHTML = days;
-      document.getElementById("hours").innerHTML = hours;
-      document.getElementById("minutes").innerHTML = minutes;
-      document.getElementById("seconds").innerHTML = seconds;
-
-      if(distance < 0){
-        clearInterval(x);
-        document.getElementById("days").innerHTML = "00";
-        document.getElementById("hours").innerHTML = "00";
-        document.getElementById("minutes").innerHTML = "00";
-        document.getElementById("seconds").innerHTML = "00";
-      }
-
-    },1000);
-
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
