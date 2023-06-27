@@ -16,7 +16,7 @@ body {
 }
 
 .logo{
-   width: 120px;
+   width: 90px;
    padding: 20px 0;
    cursor: pointer;
 }
@@ -33,6 +33,11 @@ body {
   font-weight: 1000;
   color: #FEFF00;
   margin-bottom: 50px;
+}
+
+.content h1 img {
+  width: 80px;
+  margin-top: 7px;
 }
 
 .content button{
@@ -96,14 +101,14 @@ body {
 } 
 
 .arbp{
-  width: 250px;
+  width: 650px;
   position: absolute;
   right: 10%;
-  bottom: 0;
-  animation: arbp 4s linear infinite;
+  top: 0;
+  margin-top: 100px;
 }
 
-@keyframes arbp{
+/* @keyframes arbp{
   0%{
     bottom: 0;
     opacity: 0;
@@ -112,7 +117,7 @@ body {
     bottom: 105%;
     opacity: 1;
   }
-}
+} */
 
 @media only screen and (max-width:1300px) and (min-width:0px) {
 
