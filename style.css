@@ -10,6 +10,7 @@ body {
   height: 100vh;
   background-image: url(images/background_image.png);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 0 8%;
   position: relative;
@@ -119,14 +120,3 @@ body {
   }
 } */
 
-@media only screen and (max-width:1300px) and (min-width:0px) {
-
-}
-
-@media only screen and (max-width:950px) and (min-width:0px) {
-  
-}
-
-@media only screen and (max-width:550px) and (min-width:0px) {
-  
-}
